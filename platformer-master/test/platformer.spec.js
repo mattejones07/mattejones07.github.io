@@ -226,15 +226,3 @@ describe('platformer', function() {
         });
     });
 });
-////////////////////////////////////////////////////////////////////////
-// ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-
-
-createPlatform(340, 420);           // normal platform
-createPlatform(300, 200, 0.3)       // small horizontal platform (40% the normal width)
-createCollectable(type, x, y, gravity, bounce);
-
-  
-
-// ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
