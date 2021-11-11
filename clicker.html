@@ -6,16 +6,37 @@
         p {
             color: blue;
         }
-        body { color:chartreuse;
+        body { color:rgb(68, 0, 255);
         } 
+        img{
+            width: 300px;
+        }
 
     </style>
 </head>
 
 <body>
-    <p>hello</p>
-    
+    <img id="img" src="https://media.istockphoto.com/photos/reindeer-in-winter-tundra-picture-id930868708?k=20&m=930868708&s=612x612&w=0&h=mI-6QBsmFS5ovp1yVW2kSkIZA55bv49TI41_WuTo0XI=">
+    <p id= "score"> score=0 </p>
+    <img id = "upgrade" src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/11-512.png"> 
+ 
+     
     Hi my name is Matthew
 </body>
 
 </html>
+
+<script>
+    document.getElementById("img").addEventListener("click",imgclick)
+       document.getElementById("upgrade").addEventListener("click", upgrade)
+       var score = 0 
+ function imgclick(){
+    score = score +1 
+    document.getElementById("score").innerText = "score = " + score
+   
+
+
+ }
+
+
+</script>
